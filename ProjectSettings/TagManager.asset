@@ -3,16 +3,30 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - wall
+  - blueGoal
+  - purpleGoal
+  - purpleAgent
+  - blueAgent
+  - ball
+  - agent
+  - walkableSurface
+  - block
+  - goal
+  - ground
+  - boundary
+  - blueBoundary
+  - purpleBoundary
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - player
   - Water
   - UI
-  - 
-  - 
+  - netwall
+  - ball
   - 
   - 
   - 
