@@ -54,7 +54,7 @@ public class VolleyballEnvController : MonoBehaviour
     bool broundwin = false;
     Team lastHitter;
 
-    private int resetTimer;
+    //private int resetTimer;
     public int MaxEnvironmentSteps;
 
     void Start()
@@ -242,8 +242,7 @@ public class VolleyballEnvController : MonoBehaviour
     /// </summary>
     public void ResetScene()
     {
-        resetTimer = 0;
-   
+           
         lastHitter = Team.Default; // reset last hitter
 
         foreach (var agent in AgentsList)
