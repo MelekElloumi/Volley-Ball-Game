@@ -29,6 +29,8 @@ public class VolleyballEnvController : MonoBehaviour
 
     public VolleyballAgent blueAgent;
     public VolleyballAgent purpleAgent;
+    public string bluename;
+    public string purplename;
     public Text bluescore;
     public Text purplescore;
     public GameObject winbox;
@@ -142,7 +144,7 @@ public class VolleyballEnvController : MonoBehaviour
                 // end episode
                 blueAgent.EndEpisode();
                 purpleAgent.EndEpisode();
-                if (broundwin == false)
+                if (proundwin == false && broundwin == false)
                 {
                     broundwin = true;
                     GetComponent<AudioSource>().clip = crowdcheer;
@@ -151,7 +153,7 @@ public class VolleyballEnvController : MonoBehaviour
                     bluescore.text = bscore.ToString();
                     if (bscore >= 5)
                     {
-                        win("Player", Color.blue);
+                        win(bluename, Color.blue);
                     }
                     else
                         Invoke("ResetScene", 3);
@@ -169,7 +171,7 @@ public class VolleyballEnvController : MonoBehaviour
                 // end episode
                 blueAgent.EndEpisode();
                 purpleAgent.EndEpisode();
-                if (proundwin == false)
+                if (proundwin == false && broundwin == false)
                 {
                     proundwin= true;
                     GetComponent<AudioSource>().clip = crowdcheer;
@@ -177,7 +179,7 @@ public class VolleyballEnvController : MonoBehaviour
                     pscore++;
                     purplescore.text = pscore.ToString();
                     if (pscore >= 5){
-                        win("Bot",Color.magenta);
+                        win(purplename,Color.magenta);
                     }
                     else
                         Invoke("ResetScene", 3);

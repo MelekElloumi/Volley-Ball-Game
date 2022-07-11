@@ -10,6 +10,7 @@ public class VolleyballAgent : Agent
     Rigidbody agentRb;
     BehaviorParameters behaviorParameters;
     public Team teamId;
+    public CharacterController charcont;
 
     // To get ball's location for observations
     public GameObject ball;

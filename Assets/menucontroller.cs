@@ -20,4 +20,9 @@ public class menucontroller : MonoBehaviour
         Debug.Log("Quit");
         Application.Quit();
     }
+
+    public void Menu()
+    {
+        SceneManager.LoadScene("Menu");
+    }
 }
