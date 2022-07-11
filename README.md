@@ -21,3 +21,5 @@ where the bot agent was trained. We then improved the training-suitable environm
 
 ## Gameplay video
 
+https://user-images.githubusercontent.com/62803294/178055130-c1be513f-e007-4b26-acf7-3273655942b6.mp4
+
