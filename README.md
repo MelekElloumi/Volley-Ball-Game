@@ -7,7 +7,7 @@
 where the bot agent was trained. We then improved the training-suitable environment to a gameplay-suitable environment.
 
 
-- You can download the game from [here](https://drive.google.com/file/d/1wrDrDmm8IdodWwItE10YPh52bZPhqe32/view?usp=sharing)
+- You can download the game from [itch.io](https://malloumario.itch.io/volley-ball-game)
 - There are still few known bugs here and there but overall it's in a playable state.
 - Through this game we learnt:
    - Writing c# scripts using unity fonctions
